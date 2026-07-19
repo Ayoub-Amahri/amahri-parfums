@@ -1,0 +1,35 @@
+<svg viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="30%" cy="40%" r="90%">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f3d98a"/>
+      <stop offset="50%" stop-color="#d4af37"/>
+      <stop offset="100%" stop-color="#b8892a"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a5568" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#8fb6c9" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#3a5568" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="cap" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f5e6b8"/>
+      <stop offset="100%" stop-color="#8a6d1f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="900" cy="315" r="260" fill="none" stroke="#d4af37" stroke-width="1" opacity="0.2"/>
+
+  <g transform="translate(830,140)">
+    <ellipse cx="80" cy="400" rx="110" ry="18" fill="#000" opacity="0.45"/>
+    <rect x="52" y="0" width="56" height="60" rx="12" fill="url(#cap)"/>
+    <path d="M 10 60 Q 4 50 45 50 L 115 50 Q 156 50 150 60 L 172 365 Q 172 400 132 400 L 28 400 Q -12 400 -12 365 Z"
+          fill="url(#glass)" stroke="#4a6b7c" stroke-width="2.5"/>
+  </g>
+
+  <text x="90" y="270" font-family="Georgia, serif" font-size="72" font-weight="bold" letter-spacing="6" fill="url(#gold)">AMAHRI</text>
+  <text x="90" y="315" font-family="Georgia, serif" font-size="22" letter-spacing="8" fill="#d8d8d8">COLLECTIONS PARFUMS</text>
+  <text x="90" y="380" font-family="Georgia, serif" font-size="24" fill="#bbbbbb">Luxury Fragrances, Inspired by the World's Best</text>
+</svg>

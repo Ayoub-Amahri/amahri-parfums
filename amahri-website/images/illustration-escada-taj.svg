@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" role="img" aria-labelledby="title desc">
+<title id="title">Illustration de parfum AMAHRI — Escada Taj</title>
+<desc id="desc">Visuel illustratif sans photographie du produit physique.</desc>
+<defs>
+  <radialGradient id="back" cx="50%" cy="30%" r="82%"><stop stop-color="#bc9986" stop-opacity=".38"/><stop offset="1" stop-color="#362b27"/></radialGradient>
+  <linearGradient id="bottle" x1="0" y1="0" x2="1" y2=".13"><stop stop-color="#362b27"/><stop offset=".2" stop-color="#bc9986"/><stop offset=".56" stop-color="#362b27"/><stop offset=".83" stop-color="#bc9986"/><stop offset="1" stop-color="#362b27"/></linearGradient>
+  <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8d6b43"/><stop offset=".43" stop-color="#e6c6a3"/><stop offset="1" stop-color="#6e5138"/></linearGradient>
+  <filter id="sh"><feGaussianBlur stdDeviation="17"/></filter>
+</defs>
+<rect width="600" height="750" fill="url(#back)"/>
+<rect width="560" height="710" x="20" y="20" rx="2" fill="none" stroke="#e6c6a3" stroke-opacity=".18"/>
+<path d="M70 110 C220 42 450 55 560 160" fill="none" stroke="#e6c6a3" opacity=".13"/>
+<ellipse cx="300" cy="643" rx="152" ry="24" fill="#08080b" opacity=".7" filter="url(#sh)"/>
+<rect x="271" y="128" width="58" height="83" rx="6" fill="url(#metal)" />
+<rect x="257" y="101" width="86" height="65" rx="10" fill="url(#metal)" stroke="#edddbd" stroke-opacity=".45"/>
+<path d="M226 206 Q210 206 210 227 L186 594 Q185 628 223 630 L377 630 Q415 628 414 594 L390 227 Q390 206 374 206 Z" fill="url(#bottle)" stroke="#e6c6a3" stroke-opacity=".38" stroke-width="3"/>
+<path d="M231 236 L216 560" stroke="white" stroke-opacity=".22" stroke-width="15" stroke-linecap="round"/>
+<rect x="232" y="335" width="136" height="132" rx="2" fill="#100e13" opacity=".78" stroke="#e6c6a3" stroke-opacity=".8"/>
+<text x="300" y="371" text-anchor="middle" font-size="19" letter-spacing="4" fill="#e6c6a3" font-family="Georgia,serif">AMAHRI</text>
+<path d="M253 382 H347" stroke="#e6c6a3" stroke-opacity=".65"/>
+<text x="300" y="416" text-anchor="middle" font-size="25" fill="#fbf3e8" font-family="Georgia,serif"><tspan x="300" dy="0">ESCADA TAJ</tspan></text>
+<text x="300" y="682" text-anchor="middle" font-size="12" letter-spacing="4" fill="#e6c6a3" font-family="Arial,sans-serif">COLLECTION SIGNATURE</text>
+<text x="300" y="708" text-anchor="middle" font-size="12" letter-spacing="1.5" fill="#e4ddd4" font-family="Arial,sans-serif">VISUEL ILLUSTRATIF</text>
+</svg>

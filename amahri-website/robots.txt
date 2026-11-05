@@ -3,5 +3,4 @@ Allow: /
 Disallow: /cart.html
 Disallow: /checkout.html
 Disallow: /wishlist.html
-
-Sitemap: https://www.amahri.ma/sitemap.xml
+Sitemap: https://amahri-parfums.netlify.app/sitemap.xml

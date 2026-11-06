@@ -1,5 +1,13 @@
+# This file is inside amahri-website/ (the Netlify Base directory).
 [build]
-  publish = "."
+  command = "npm run build"
+  publish = "dist"
 
 [build.environment]
   NODE_VERSION = "22"
+
+# Keep deep links and direct refresh working with React Router.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
